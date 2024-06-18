@@ -1,0 +1,281 @@
+body {
+font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 60%;
+    max-width: 700px;
+    background-color: black;
+    color: white ;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+h1{
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.btn {
+   display: inline-block;
+          padding: 12px 28px;
+          background: #000080;
+          border-radius: 40px;
+          font-size: 16px;
+          color: white;
+          letter-spacing: 1px;
+          text-decoration: none;
+          font-weight: 600;
+          opacity: 0;
+          animation: slideTop 1s ease forwards ;
+          animation-delay: 2s;
+          box-shadow: 0 0 5px
+#000080, 0 0 25px #000080;
+}
+
+.btn:hover {
+    box-shadow: 0 0 5px #000080, 0 0 25px #000080, 0 0 50px #000080, 0 0 100px #000080, 0 0 200px #000080;
+}
+
+.btn2 {
+   display: inline-block;
+          padding: 12px 28px;
+          background: #ffc4d8;
+          border-radius: 40px;
+          font-size: 16px;
+          color: #081b29;
+          letter-spacing: 1px;
+          text-decoration: none;
+          font-weight: 600;
+          opacity: 0;
+          animation: slideTop 1s ease forwards ;
+          animation-delay: 2s;
+          box-shadow: 0 0 5px #ffc4d8, 0 0 25px #ffc4d8;
+}
+
+.btn2:hover {
+    box-shadow: 0 0 5px #ffc4d8, 0 0 25px #ffc4d8, 0 0 50px #ffc4d8, 0 0 100px #ffc4d8, 0 0 200px #ffc4d8;
+}
+
+.btn3 {
+   display: inline-block;
+          padding: 12px 28px;
+          background: white;
+          border-radius: 40px;
+          font-size: 16px;
+          color: #081b29;
+          letter-spacing: 1px;
+          text-decoration: none;
+          font-weight: 600;
+          opacity: 0;
+          animation: slideTop 1s ease forwards ;
+          animation-delay: 2s;
+          box-shadow: 0 0 5px white, 0 0 25px white;
+}
+
+.btn3:hover {
+    box-shadow: 0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 100px white, 0 0 200px white;
+}
+
+.btn4 {
+   display: inline-block;
+          padding: 12px 28px;
+          background: #008000;
+          border-radius: 40px;
+          font-size: 16px;
+          color: #081b29;
+          letter-spacing: 1px;
+          text-decoration: none;
+          font-weight: 600;
+          opacity: 0;
+          animation: slideTop 1s ease forwards ;
+          animation-delay: 2s;
+          box-shadow: 0 0 5px #008000, 0 0 25px #008000;
+}
+
+.btn4:hover {
+    box-shadow: 0 0 5px #008000, 0 0 25px #008000, 0 0 50px #008000, 0 0 100px #008000, 0 0 200px #008000;
+}
+
+.btn5 {
+   display: inline-block;
+          padding: 12px 28px;
+          background: #9932cc;
+          border-radius: 40px;
+          font-size: 16px;
+          color: #081b29;
+          letter-spacing: 1px;
+          text-decoration: none;
+          font-weight: 600;
+          opacity: 0;
+          animation: slideTop 1s ease forwards ;
+          animation-delay: 2s;
+          box-shadow: 0 0 5px #9932cc, 0 0 25px #9932cc;
+}
+
+.btn5:hover {
+    box-shadow: 0 0 5px #9932cc, 0 0 25px #9932cc, 0 0 50px #9932cc, 0 0 100px #9932cc, 0 0 200px #9932cc;
+}
+
+.btn6 {
+   display: inline-block;
+          padding: 12px 28px;
+          background: #0ef;
+          border-radius: 40px;
+          font-size: 16px;
+          color: #081b29;
+          letter-spacing: 1px;
+          text-decoration: none;
+          font-weight: 600;
+          opacity: 0;
+          animation: slideTop 1s ease forwards ;
+          animation-delay: 2s;
+          box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
+}
+
+.btn6:hover {
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+}
+
+.btn7 {
+   display: inline-block;
+          padding: 12px 28px;
+          background: #ff2400;
+          border-radius: 40px;
+          font-size: 16px;
+          color: white;
+          letter-spacing: 1px;
+          text-decoration: none;
+          font-weight: 600;
+          opacity: 0;
+          animation: slideTop 1s ease forwards ;
+          animation-delay: 2s;
+          box-shadow: 0 0 5px #ff2400, 0 0 25px #ff2400;
+}
+
+.btn7:hover {
+    box-shadow: 0 0 5px #ff2400, 0 0 25px #ff2400, 0 0 50px #ff2400, 0 0 100px #ff2400, 0 0 200px #ff2400;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+}
+
+#start-btn{
+  display: inline-block;
+          padding: 12px 28px;
+          background: #0ef;
+          border-radius: 40px;
+          font-size: 16px;
+          color: #081b29;
+          letter-spacing: 1px;
+          text-decoration: none;
+          font-weight: 600;
+          opacity: 0;
+          animation: slideTop 1s ease forwards ;
+          animation-delay: 2s;
+          box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
+}
+
+#start-btn:hover{
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+}
+
+#score-btn{
+  display: inline-block;
+          padding: 12px 28px;
+          background: #0ef;
+          border-radius: 40px;
+          font-size: 16px;
+          color: #081b29;
+          letter-spacing: 1px;
+          text-decoration: none;
+          font-weight: 600;
+          opacity: 0;
+          animation: slideTop 1s ease forwards ;
+          animation-delay: 2s;
+          box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
+}
+
+#score-btn:hover{
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+}
+
+#next-btn {
+   display: inline-block;
+          padding: 12px 28px;
+          background: #0ef;
+          border-radius: 40px;
+          font-size: 16px;
+          color: #081b29;
+          letter-spacing: 1px;
+          text-decoration: none;
+          font-weight: 600;
+          opacity: 0;
+          animation: slideTop 1s ease forwards ;
+          animation-delay: 2s;
+          box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
+}
+
+#next-btn:hover{
+   box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+} 
+
+       @keyframes slideRight {
+          0%{
+            transform: translateX(-100px);
+            opacity: 0;
+          }
+          100%{
+            transform: translateX(0px);
+            opacity: 1;
+          }
+        }
+
+        @keyframes slideTop {
+          0%{
+            transform: translateY(-100px);
+            opacity: 0;
+          }
+          100%{
+            transform: translateY(0px);
+            opacity: 1;
+          }
+        }
+
+        @keyframes slideBottom {
+          0%{
+            transform: translateY(-100px);
+            opacity: 0;
+          }
+          100%{
+            transform: translateY(0px);
+            opacity: 1;
+          }
+        }
+
+        @keyframes slideLeft {
+          0%{
+            transform: translateX(100px);
+            opacity: 0;
+          }
+          100%{
+            transform: translateX(0px);
+            opacity: 1;
+          }
+        }
