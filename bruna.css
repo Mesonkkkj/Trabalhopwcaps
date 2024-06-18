@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 60%;
+    max-width: 700px;
+    background-color: black;
+    color: white ;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+.btn {
+   display: inline-block;
+          padding: 12px 28px;
+          background: #0ef;
+          border-radius: 40px;
+          font-size: 16px;
+          color: #081b29;
+          letter-spacing: 1px;
+          text-decoration: none;
+          font-weight: 600;
+          opacity: 0;
+          animation: slideTop 1s ease forwards ;
+          animation-delay: 2s;
+          box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
+}
+
+.btn:hover {
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+}
+
+#start-btn{
+  display: inline-block;
+          padding: 12px 28px;
+          background: #0ef;
+          border-radius: 40px;
+          font-size: 16px;
+          color: #081b29;
+          letter-spacing: 1px;
+          text-decoration: none;
+          font-weight: 600;
+          opacity: 0;
+          animation: slideTop 1s ease forwards ;
+          animation-delay: 2s;
+          box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
+}
+
+#start-btn:hover{
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+}
+
+#score-btn{
+  display: inline-block;
+          padding: 12px 28px;
+          background: #0ef;
+          border-radius: 40px;
+          font-size: 16px;
+          color: #081b29;
+          letter-spacing: 1px;
+          text-decoration: none;
+          font-weight: 600;
+          opacity: 0;
+          animation: slideTop 1s ease forwards ;
+          animation-delay: 2s;
+          box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
+}
+
+#score-btn:hover{
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+}
+
+#next-btn {
+   display: inline-block;
+          padding: 12px 28px;
+          background: #0ef;
+          border-radius: 40px;
+          font-size: 16px;
+          color: #081b29;
+          letter-spacing: 1px;
+          text-decoration: none;
+          font-weight: 600;
+          opacity: 0;
+          animation: slideTop 1s ease forwards ;
+          animation-delay: 2s;
+          box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
+}
+
+#next-btn:hover{
+   box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+}
+
+.correct {
+  background-color: green;
+}
+
+.wrong {
+  background-color: red;
+}
+
+       @keyframes slideRight {
+          0%{
+            transform: translateX(-100px);
+            opacity: 0;
+          }
+          100%{
+            transform: translateX(0px);
+            opacity: 1;
+          }
+        }
+
+        @keyframes slideTop {
+          0%{
+            transform: translateY(-100px);
+            opacity: 0;
+          }
+          100%{
+            transform: translateY(0px);
+            opacity: 1;
+          }
+        }
+
+        @keyframes slideBottom {
+          0%{
+            transform: translateY(-100px);
+            opacity: 0;
+          }
+          100%{
+            transform: translateY(0px);
+            opacity: 1;
+          }
+        }
+
+        @keyframes slideLeft {
+          0%{
+            transform: translateX(100px);
+            opacity: 0;
+          }
+          100%{
+            transform: translateX(0px);
+            opacity: 1;
+          }
+        } 
